@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Hebe Changelog</title>
+    <link>https://github.com/g-giannis/hebe-releases/releases/download/</link>
+
+    <!-- Initial Version -->
+    <item>
+      <title>Version 0.1.0</title>
+      <sparkle:releaseNotesLink>
+          https://github.com/g-giannis/hebe-releases/blob/main/updates/0.1.0.html
+      </sparkle:releaseNotesLink>
+      <pubDate>Tue, 21 May 2025 22:00:00 +0000</pubDate>
+      <enclosure
+        url="https://github.com/g-giannis/hebe-releases/releases/download/v0.1.0-alpha/Hebe-0.1.0.zip"
+        sparkle:version="1"
+        sparkle:shortVersionString="0.1.0"
+        length="4144675"
+        type="application/octet-stream"
+        sparkle:edSignature="JZ4cadYzjl0/xAaRbr7+knp+pM+Cu/+wcLYRYCw4h4bZ+3s/cFuUfYDMeGGfH/vsiulU8Re1hPH8VmYqEeIYBw=="/>
+    </item>
+
+    <!-- older items… -->
+  </channel>
+</rss>
