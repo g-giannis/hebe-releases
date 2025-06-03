@@ -1,27 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"
-     xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <channel>
-    <title>Hebe Changelog</title>
-    <link>https://github.com/g-giannis/hebe-releases/releases</link>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Hebe Changelog</title>
+        <link>https://github.com/g-giannis/hebe-releases/releases</link>
+        <!-- Initial Version -->
+        <item>
+            <title>Version 0.1.0</title>
+            <sparkle:releaseNotesLink>
+                https://raw.githubusercontent.com/g-giannis/hebe-releases/main/updates/0.1.0.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 21 May 2025 22:00:00 +0000</pubDate>
+            <enclosure
+            url="https://github.com/g-giannis/hebe-releases/releases/download/v0.1.0-alpha/Hebe-0.1.0.zip"
+            sparkle:version="1"
+            sparkle:shortVersionString="0.1.0"
+            length="4145405"
+            type="application/octet-stream"
+            sparkle:edSignature="UAbRlL94DDcsL6xl2q5b6k0HNm3MqXoq2LKPXZFdqtIZ33MJNmVCdQTJhbhguXmNR171kIfGcBSigDQqWNafAA=="/>
+        </item>
 
-    <!-- Initial Version -->
-    <item>
-      <title>Version 0.1.0</title>
-      <sparkle:releaseNotesLink>
-          https://raw.githubusercontent.com/g-giannis/hebe-releases/main/updates/0.1.0.html
-      </sparkle:releaseNotesLink>
-      <pubDate>Tue, 21 May 2025 22:00:00 +0000</pubDate>
-      <enclosure
-        url="https://github.com/g-giannis/hebe-releases/releases/download/v0.1.0-alpha/Hebe-0.1.0.zip"
-        sparkle:version="1"
-        sparkle:shortVersionString="0.1.0"
-        length="4145405"
-        type="application/octet-stream"
-        sparkle:edSignature="UAbRlL94DDcsL6xl2q5b6k0HNm3MqXoq2LKPXZFdqtIZ33MJNmVCdQTJhbhguXmNR171kIfGcBSigDQqWNafAA=="/>
-    </item>
+        <item>
+            <title>Version 0.1.1</title>
+            <sparkle:releaseNotesLink>
+                https://raw.githubusercontent.com/g-giannis/hebe-releases/main/updates/0.1.1.html
+            </sparkle:releaseNotesLink>
+            <pubDate>Tue, 03 June 2025 22:00:00 +0000</pubDate>
+            <enclosure url="https://github.com/g-giannis/hebe-releases/releases/download/v0.1.1/Hebe-0.1.1.zip" length="4135938" type="application/octet-stream" sparkle:edSignature="ac3kIq+PbC36agU0mUt0pYnaHHeJsjbSkKl1YdXXNVsXvtAilxbdSfl7KKJm2CqDMaNyJEMA1gXZnf7xHMv7Dg=="/>
+            <sparkle:version>1</sparkle:version>
+            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+        </item>
 
-    <!-- older items… -->
-  </channel>
+        <!-- older items… -->
+    </channel>
 </rss>
